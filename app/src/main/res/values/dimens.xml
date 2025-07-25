@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="pswRadioButtonWidth">17dp</dimen>
+    <dimen name="pswRadioButtonStrokeWidth">2dp</dimen>
+
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+
+    <!-- server info config dialog size begin -->
+    <dimen name="server_height_size">66dp</dimen>
+    <dimen name="ip_height_size">60dp</dimen>
+    <dimen name="ip_text_width_size">80dp</dimen>
+    <dimen name="ip_width_size">200dp</dimen>
+    <dimen name="port_height_size">60dp</dimen>
+    <dimen name="port_text_width_size">80dp</dimen>
+    <dimen name="port_width_size">200dp</dimen>
+    <dimen name="confirm_button_height_size">60dp</dimen>
+    <dimen name="confirm_button_width_size">100dp</dimen>
+    <dimen name="ip_text_size">20sp</dimen>
+    <dimen name="port_text_size">20sp</dimen>
+    <dimen name="confirm_button_text_size">22sp</dimen>
+    <dimen name="title_text_size">22sp</dimen>
+    <dimen name="server_config_info_dialog_width">180dp</dimen>
+    <dimen name="server_config_info_dialog_height">120dp</dimen>
+
+    <dimen name="server_config_info_dialog_title_height">60dp</dimen>
+    <!-- server info config dialog size end -->
+</resources>

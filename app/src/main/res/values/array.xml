@@ -1,0 +1,272 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="items_transaction_type">
+        <item>Goods</item>
+        <item>Service</item>
+        <item>Cash</item>
+        <item>CashBack</item>
+        <!--item>查询</item>
+        <item>转账</item>
+        <item>管理</item>
+        <item>存款</item>
+        <item>支付</item-->
+    </string-array>
+
+    <string-array name="value_transaction_type">
+        <item>00</item>
+        <item>00</item>
+        <item>01</item>
+        <item>09</item>
+        <!--item>FF</item>
+        <item>FF</item>
+        <item>FF</item>
+        <item>FF</item>
+        <item>FF</item-->
+    </string-array>
+
+    <string-array translatable="false" name="items_force_acceptance">
+        <item>Close Force Acceptance</item>
+        <item>Open Force Acceptance</item>
+    </string-array>
+
+    <string-array translatable="false" name="value_force_acceptance">
+        <item>00</item>
+        <item>01</item>
+    </string-array>
+
+    <string-array name="items_account_select">
+        <item>Default_unspecified</item>
+        <item>Savings</item>
+        <item>Cheque/debit</item>
+        <item>Credit</item>
+    </string-array>
+
+    <string-array translatable="false" name="value_account_select">
+        <item>00</item>
+        <item>10</item>
+        <item>20</item>
+        <item>30</item>
+    </string-array>
+
+    <string-array translatable="false" name="items_data_collection">
+        <item>Online Data Capture</item>
+        <item>Batch Data Capture</item>
+    </string-array>
+
+    <string-array translatable="false" name="value_data_collection">
+        <item>00</item>
+        <item>01</item>
+    </string-array>
+
+    <string-array translatable="false" name="items_force_online">
+        <item>Close Force Online</item>
+        <item>Open Force Online</item>
+    </string-array>
+
+    <string-array translatable="false" name="value_force_online">
+        <item>00</item>
+        <item>01</item>
+    </string-array>
+
+    <string-array name="items_getdata_pin">
+        <item>Close GetData PIN</item>
+        <item>Open GetData PIN</item>
+    </string-array>
+
+    <string-array translatable="false" name="value_getdata_pin">
+        <item>00</item>
+        <item>01</item>
+    </string-array>
+
+    <string-array name="items_bypass_pin">
+        <item>Close Bypass PIN</item>
+        <item>Open Bypass PIN</item>
+    </string-array>
+
+    <string-array translatable="false" name="value_bypass_pin">
+        <item>00</item>
+        <item>01</item>
+    </string-array>
+
+    <string-array name="items_bypass_all">
+        <item>Close Bypass PIN All</item>
+        <item>Open Bypass PIN All</item>
+    </string-array>
+
+    <string-array translatable="false" name="value_bypass_all">
+        <item>00</item>
+        <item>01</item>
+    </string-array>
+
+    <string-array name="items_support_pse">
+        <item>Close PSE</item>
+        <item>Open PSE</item>
+    </string-array>
+
+    <string-array translatable="false" name="value_support_pse">
+        <item>00</item>
+        <item>01</item>
+    </string-array>
+
+    <string-array name="items_use_term_aip">
+        <item>Close use AIP term</item>
+        <item>Open use AIP term</item>
+    </string-array>
+
+    <string-array translatable="false" name="value_use_term_aip">
+        <item>00</item>
+        <item>01</item>
+    </string-array>
+
+    <string-array name="items_support_advice">
+        <item>Close Advice</item>
+        <item>Open Advice</item>
+    </string-array>
+
+    <string-array translatable="false" name="value_support_advice">
+        <item>00</item>
+        <item>01</item>
+    </string-array>
+
+    <string-array name="items_support_clss">
+        <item>Clsoe CLSS</item>
+        <item>Open CLSS</item>
+    </string-array>
+
+    <string-array translatable="false" name="value_support_clss">
+        <item>00</item>
+        <item>01</item>
+    </string-array>
+
+    <string-array name="items_support_sm">
+        <item>Close SM</item>
+        <item>Open SM</item>
+    </string-array>
+
+    <string-array translatable="false" name="value_support_sm">
+        <item>00</item>
+        <item>01</item>
+    </string-array>
+
+    <string-array name="items_support_multi_language">
+        <item>Close Multi Language</item>
+        <item>Open Multi Language</item>
+    </string-array>
+
+    <string-array translatable="false" name="value_support_multi_language">
+        <item>00</item>
+        <item>01</item>
+    </string-array>
+
+    <string-array name="items_language_select_method">
+        <item>Close Language Select Method</item>
+        <item>Open Language Select Method</item>
+    </string-array>
+
+    <string-array translatable="false" name="value_language_select_method">
+        <item>00</item>
+        <item>01</item>
+    </string-array>
+
+    <string-array name="items_support_exceptfile">
+        <item>Close exception file</item>
+        <item>Open exception file</item>
+    </string-array>
+
+    <string-array translatable="false" name="value_support_exceptfile">
+        <item>00</item>
+        <item>01</item>
+    </string-array>
+
+    <string-array name="items_support_account_select">
+        <item>Close Account Select</item>
+        <item>Open Account Select</item>
+    </string-array>
+
+    <string-array translatable="false" name="value_support_account_select">
+        <item>00</item>
+        <item>01</item>
+    </string-array>
+
+    <string-array name="items_support_readlog">
+        <item>关闭支持读卡片日志</item>
+        <item>开启支持读卡片日志</item>
+    </string-array>
+
+    <string-array translatable="false" name="value_support_readlog">
+        <item>00</item>
+        <item>01</item>
+    </string-array>
+
+    <string-array translatable="false" name="value_terminal_type">
+        <item>11</item>
+        <item>12</item>
+        <item>13</item>
+        <item>14</item>
+        <item>15</item>
+        <item>16</item>
+        <item>21</item>
+        <item>22</item>
+        <item>23</item>
+        <item>24</item>
+        <item>25</item>
+        <item>26</item>
+    </string-array>
+
+    <string-array translatable="false" name="items_terminal_type">
+        <item>11</item>
+        <item>12</item>
+        <item>13</item>
+        <item>14</item>
+        <item>15</item>
+        <item>16</item>
+        <item>21</item>
+        <item>22</item>
+        <item>23</item>
+        <item>24</item>
+        <item>25</item>
+        <item>26</item>
+    </string-array>
+
+    <string-array name="items_autotest_interval">
+        <item>5</item>
+        <item>10</item>
+        <item>15</item>
+        <item>20</item>
+        <item>25</item>
+        <item>30</item>
+    </string-array>
+    <string-array translatable="false" name="value_autotest_interval">
+        <item>05</item>
+        <item>10</item>
+        <item>15</item>
+        <item>20</item>
+        <item>25</item>
+        <item>30</item>
+    </string-array>
+    <string-array name="items_send_receipt">
+        <item>Close Send Receipt</item>
+        <item>Open Send Receipt</item>
+    </string-array>
+
+    <string-array translatable="false" name="value_send_receipt">
+        <item>00</item>
+        <item>01</item>
+    </string-array>
+
+    <string-array name="icc_test_item">
+        <item>ICC</item>
+        <item>AT24</item>
+        <item>4442</item>
+        <item>4428</item>
+    </string-array>
+    <string-array name="psam_test_item">
+        <item>psam1</item>
+        <item>psam2</item>
+        <item>psam3</item>
+        <item>psam4</item>
+        <item>psam5</item>
+        <item>psam6</item>
+    </string-array>
+
+</resources>

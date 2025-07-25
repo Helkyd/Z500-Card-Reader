@@ -9,6 +9,12 @@
     android:layout_gravity="center"
     tools:context=".MainActivity">
 
+    <Button
+        android:id="@+id/btn_Transacao"
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:text="Transacao" />
+
     <TextView
         android:id="@+id/txt_Type"
         android:layout_width="wrap_content"
@@ -49,6 +55,12 @@
         android:layout_height="80dp"
         android:text="ALL"/>
 
+    <Button
+        android:id="@+id/btn_ICC"
+        android:layout_width="123dp"
+        android:layout_height="80dp"
+        android:text="ICC"
+        tools:text="ICC" />
 
 
 </LinearLayout>

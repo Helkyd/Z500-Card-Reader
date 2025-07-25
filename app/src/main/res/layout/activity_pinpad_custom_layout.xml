@@ -1,0 +1,266 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".pinkeypad.PinpadCustomLayoutActivity"
+    >
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/keypad"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:visibility="invisible">
+
+        <TextView
+            android:id="@+id/textPrompt"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="16dp"
+            android:gravity="center_horizontal"
+            android:letterSpacing="0.7"
+            android:textAppearance="@style/TextAppearance.AppCompat.Display1"
+            android:textStyle="bold"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.44"
+            android:textSize="20sp"
+            android:textColor="#FF0000"
+            android:text="Please enter PIN:"/>
+
+        <TextView
+            android:id="@+id/textPin"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="16dp"
+            android:gravity="center_horizontal"
+            android:letterSpacing="0.7"
+            android:textAppearance="@style/TextAppearance.AppCompat.Display1"
+            android:textStyle="bold"
+            app:layout_constraintBottom_toTopOf="@+id/keyboard_view"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.44" />
+
+        <androidx.gridlayout.widget.GridLayout
+            android:id="@+id/keyboard_view"
+            android:layout_width="match_parent"
+            android:layout_height="275dp"
+            app:columnCount="3"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:rowCount="5">
+            <!--row1-->
+            <Button
+                android:id="@+id/keyboard_1"
+                android:layout_width="0dp"
+                android:layout_marginEnd="3dp"
+                android:layout_marginBottom="3dp"
+                android:background="#FF3F3F3F"
+                android:textColor="#FFFFFF"
+                android:textSize="40sp"
+                app:layout_columnWeight="1"
+                app:layout_rowWeight="1" />
+
+            <Button
+                android:id="@+id/keyboard_2"
+                android:layout_width="0dp"
+                android:layout_marginEnd="3dp"
+                android:layout_marginBottom="3dp"
+                android:background="#FF3F3F3F"
+                android:textColor="#FFFFFF"
+                android:textSize="40sp"
+                app:layout_columnWeight="1"
+                app:layout_rowWeight="1" />
+
+            <Button
+                android:id="@+id/keyboard_3"
+                android:layout_width="0dp"
+                android:layout_marginBottom="3dp"
+                android:background="#FF3F3F3F"
+                android:textColor="#FFFFFF"
+                android:textSize="40sp"
+                app:layout_columnWeight="1"
+                app:layout_rowWeight="1" />
+
+            <!--row2-->
+            <Button
+                android:id="@+id/keyboard_4"
+                android:layout_width="0dp"
+                android:layout_marginEnd="3dp"
+                android:layout_marginBottom="3dp"
+                android:background="#FF3F3F3F"
+                android:textColor="#FFFFFF"
+                android:textSize="40sp"
+                app:layout_columnWeight="1"
+                app:layout_rowWeight="1" />
+
+            <Button
+                android:id="@+id/keyboard_5"
+                android:layout_width="0dp"
+                android:layout_marginEnd="3dp"
+                android:layout_marginBottom="3dp"
+                android:background="#FF3F3F3F"
+                android:textColor="#FFFFFF"
+                android:textSize="40sp"
+                app:layout_columnWeight="1"
+                app:layout_rowWeight="1" />
+
+            <Button
+                android:id="@+id/keyboard_6"
+                android:layout_width="0dp"
+                android:layout_marginBottom="3dp"
+                android:background="#FF3F3F3F"
+                android:textColor="#FFFFFF"
+                android:textSize="40sp"
+                app:layout_columnWeight="1"
+                app:layout_rowWeight="1" />
+
+            <!--row3-->
+            <Button
+                android:id="@+id/keyboard_7"
+                android:layout_width="0dp"
+                android:layout_marginEnd="3dp"
+                android:layout_marginBottom="3dp"
+                android:background="#FF3F3F3F"
+                android:textColor="#FFFFFF"
+                android:textSize="40sp"
+                app:layout_columnWeight="1"
+                app:layout_rowWeight="1" />
+
+            <Button
+                android:id="@+id/keyboard_8"
+                android:layout_width="0dp"
+                android:layout_marginEnd="3dp"
+                android:layout_marginBottom="3dp"
+                android:background="#FF3F3F3F"
+                android:textColor="#FFFFFF"
+                android:textSize="40sp"
+                app:layout_columnWeight="1"
+                app:layout_rowWeight="1" />
+
+            <Button
+                android:id="@+id/keyboard_9"
+                android:layout_width="0dp"
+                android:layout_marginBottom="3dp"
+                android:background="#FF3F3F3F"
+                android:textColor="#FFFFFF"
+                android:textSize="40sp"
+                app:layout_columnWeight="1"
+                app:layout_rowWeight="1" />
+
+
+            <!--row4-->
+            <Button
+                android:layout_width="0dp"
+                android:layout_marginEnd="3dp"
+                android:layout_marginBottom="3dp"
+                android:background="#FF3F3F3F"
+                android:clickable="false"
+                app:layout_columnWeight="1"
+                app:layout_rowWeight="1" />
+
+            <Button
+                android:id="@+id/keyboard_0"
+                android:layout_width="0dp"
+                android:layout_marginEnd="3dp"
+                android:layout_marginBottom="3dp"
+                android:background="#FF3F3F3F"
+                android:textColor="#FFFFFF"
+                android:textSize="40sp"
+                app:layout_columnWeight="1"
+                app:layout_rowWeight="1" />
+
+            <Button
+                android:layout_width="0dp"
+                android:layout_marginBottom="3dp"
+                android:background="#FF3F3F3F"
+                android:clickable="false"
+                app:layout_columnWeight="1"
+                app:layout_rowWeight="1" />
+
+            <Button
+                android:id="@+id/keyboard_cancel"
+                android:layout_width="0dp"
+                android:layout_marginEnd="3dp"
+                android:background="#FFEB452D"
+                android:text="Cancel"
+                android:textColor="#FFFFFF"
+                android:textSize="16sp"
+                app:layout_columnWeight="1"
+                app:layout_rowWeight="1" />
+
+            <Button
+                android:id="@+id/keyboard_clear"
+                android:layout_width="0dp"
+                android:layout_marginEnd="3dp"
+                android:background="#FFFCB901"
+                android:text="Clear"
+                android:textColor="#FFFFFF"
+                android:textSize="16sp"
+                app:layout_columnWeight="1"
+                app:layout_rowWeight="1" />
+
+            <Button
+                android:id="@+id/keyboard_confirm"
+                android:layout_width="0dp"
+                android:background="#FF37BE31"
+                android:text="Confirm"
+                android:textColor="#FFFFFF"
+                android:textSize="16sp"
+                app:layout_columnWeight="1"
+                app:layout_rowWeight="1" />
+        </androidx.gridlayout.widget.GridLayout>
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+<!--    <RelativeLayout-->
+<!--        android:id="@+id/mainContainer"-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="match_parent"-->
+
+<!--        >-->
+
+<!--        <TextView-->
+<!--            android:id="@+id/textInfo"-->
+<!--            android:layout_width="match_parent"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:layout_centerHorizontal="true"-->
+<!--            app:layout_constraintEnd_toEndOf="parent"-->
+<!--            app:layout_constraintStart_toStartOf="parent"-->
+<!--            app:layout_constraintTop_toTopOf="parent" />-->
+
+<!--        <LinearLayout-->
+<!--            android:layout_width="wrap_content"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:layout_marginLeft="20dp"-->
+<!--            android:layout_marginRight="20dp"-->
+<!--            android:layout_marginTop="330dp"-->
+<!--            android:orientation="horizontal">-->
+<!--        <Button-->
+<!--            android:id="@+id/btnMKSKPinblockTest"-->
+<!--            android:layout_width="wrap_content"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:layout_centerInParent="true"-->
+<!--            android:text="MKSKPinblock Test" />-->
+<!--        </LinearLayout>-->
+
+<!--        <LinearLayout-->
+<!--            android:layout_width="wrap_content"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:layout_marginLeft="20dp"-->
+<!--            android:layout_marginRight="20dp"-->
+<!--            android:layout_marginTop="430dp"-->
+<!--            android:orientation="horizontal">-->
+
+<!--            <Button-->
+<!--                android:id="@+id/btnDUKPTPinblockTest"-->
+<!--                android:layout_width="wrap_content"-->
+<!--                android:layout_height="wrap_content"-->
+<!--                android:layout_centerInParent="true"-->
+<!--                android:text="DUKPTPinblock Test" />-->
+
+<!--        </LinearLayout>-->
+
+<!--    </RelativeLayout>-->
+</RelativeLayout>

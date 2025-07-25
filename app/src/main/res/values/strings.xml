@@ -1,3 +1,367 @@
 <resources>
-    <string name="app_name">Sunmi Card Reader</string>
+    <string name="app_name">Z500 Card Reader</string>
+    <string name="action_settings">Settings</string>
+    <string name="spacebar">Spacebar</string>
+    <string name="start">Start</string>
+    <string name="strContinue">Continue</string>
+    <string name="clean">Clean</string>
+    <string name="result">Result : </string>
+    <!--    <string name="select">Select Type : </string>-->
+    <string name="stop">Stop</string>
+    <string name="icc">ICC</string>
+    <string name="scan">Scanner</string>
+    <string name="idcard">IDCard</string>
+    <string name="print">Print</string>
+    <string name="finger">Finger</string>
+    <string name="mcr">MSR</string>
+    <string name="picc">NFC</string>
+    <string name="pci">PCI</string>
+    <string name="sys">Sys</string>
+    <string name="emv">EMV</string>
+    <string name="swipe">Swipe Card Please</string>
+    <string name="update">Update</string>
+    <string name="upgrade_os">Upgrade OS</string>
+    <string name="test_uart">Test_uart</string>
+    <string name="others">Others</string>
+    <string name="signature">Signature</string>
+    <string name="key">Key</string>
+    <string name="led">Led</string>
+    <string name="test">Test</string>
+    <string name="Beep">Beep</string>
+    <string name="title_activity_picc">Picc Test</string>
+    <string name="title_activity_icc">Icc Test</string>
+    <string name="title_activity_pci">Pci Test</string>
+    <string name="title_activity_msr">Msr Test</string>
+    <string name="title_activity_others">Others Test</string>
+    <string name="title_activity_scan">Scan Test</string>
+    <string name="title_activity_idcard">IDCard Test</string>
+    <string name="title_activity_finger">Finger Test</string>
+    <string name="title_activity_print">print Test</string>
+    <string name="title_activity_key">Key Test</string>
+    <string name="wait_time">Test NFC card...</string>
+    <string-array name="check_card">Checking card...</string-array>
+    <string name="isOpening">Please Wait a moment,Opening...</string>
+    <string name="clik_start">Please put your card and click Start</string>
+    <string name="update_finish">Update Finish \n Please restart the app</string>
+    <string name="update_fail">Update Failed</string>
+    <string name="isUpdating">Please Wait a moment,Updating... \n  Please do not perform any other operations </string>
+    <string name="isMcuOn">Please Wait a moment,the MCU is turning on... \n  Please do not perform any other operations </string>
+
+    <string name="aid_dlg_title">Please Select AID </string>
+
+    <string name="update_or_not">Upgrade?</string>
+    <string name="mcrTitle">MCR open failed, please try again...</string>
+
+    <string name="emvTips">Please insert card for testing...</string>
+    <string name="blockTips">Please enter block No.~</string>
+    <string name="writeTips">Please Enter the data you want to write~</string>
+    <string name="zeroAmt_support">Zero Amt Support</string>
+
+    <string name="upgradeTips">In order to update the system, it will not be interrupted accidentally, so the Back button event is blocked in this interface. Are you sure to continue ?</string>
+    <string name="upgradeZip">Step 1: to rename the file that needs to be upgraded to "upgrade.zip";\n\nStep 2: place "upgrade.zip" in the file system and directory;\n\nStep 3: click the button to upgrade;</string>
+    <string name="back">BACK</string>
+    <string name="more">more</string>
+    <string name="scanContinuousMode">Continuous</string>
+    <string name="scanNormalMode">Normal</string>
+    <string name="scanStart">Start / Stop</string>
+    <string name="scanStop">Stop</string>
+    <string name="scanDisable">Close Scanner</string>
+    <string name="scanEnable">Open Scanner</string>
+
+    <string name="title_fiscal">Fiscal</string>
+    <string name="fiscal_test">send: 04010030ffcd</string>
+    <string name="fiscal_open">Open</string>
+    <string name="fiscal_send">Send</string>
+    <string name="fiscal_close">Close</string>
+
+    <string name="ok">OK</string>
+    <string name="cancel">Cancel</string>
+    <string name="file_not_found">No upgrade firmware found</string>
+    <string name="file_not_found_update_os">No upgrade os file found</string>
+    <!-- title -->
+    <string name="title_bluetooth">Bluetooth connect</string>
+    <string name="title_writing">Please sign in the box</string>
+    <string name="title_home">China UnionPay</string>
+
+    <string name="selectGray">Select Printer Density :   </string>
+    <string name="fallback_or_not">whether to continue with Mag stripe or chip?</string>
+    <string name="confirm_card_number">Confirm Card Number</string>
+
+    <!-- main Menu -->
+    <string-array name="menu_imgs">
+        <item name="icon1">Receivables</item>
+        <item name="icon1">Government payment</item>
+        <item name="icon1">Transfer accounts</item>
+        <item name="icon1">Credit card payment</item>
+        <item name="icon1">Game currency</item>
+        <item name="icon1">Balance inquiry</item>
+        <item name="icon1">Prepaid Refill</item>
+        <item name="icon1">lottery</item>
+        <item name="icon1">Cinema</item>
+    </string-array>
+    <string name="menu_exit">Exit</string>
+    <!-- bluetooth -->
+    <string name="bt_connect_text">Bluetooth connection with touch Icon</string>
+    <!-- handwriting -->
+    <string name="handwrite_tip">Please sign in the box</string>
+    <!-- bankname -->
+    <string-array name="bankname">
+        <item name="01020000">ICBC</item>
+        <item name="01030000">ABC</item>
+        <item name="01040000">BC</item>
+        <item name="01050000">CBC</item>
+        <item name="01000000">PSBC</item>
+        <item name="03010000">BCM</item>
+        <item name="03020000">CCB</item>
+        <item name="03030000">CEB</item>
+        <item name="03040000">HXB</item>
+        <item name="03050000">CMBC</item>
+        <item name="03060000">GDB</item>
+        <item name="03070000">SDB</item>
+        <item name="03080000">CMB</item>
+        <item name="03090000">CIB</item>
+        <item name="03100000">SPDB</item>
+        <item name="01000001">PS</item>
+        <item name="04478210">BANK OF LANZHOU</item>
+        <item name="00010000">UnionPay Center</item>
+        <item name="01020000">Wuhan Xinhe</item>
+        <item name="04325260">Yichang firm</item>
+        <item name="04145210">Wuhan firm</item>
+    </string-array>
+    <!-- bankid -->
+    <string-array name="bankid">
+        <item name="01020000">01020000</item>
+        <item name="01030000">01030000</item>
+        <item name="01040000">01040000</item>
+        <item name="01050000">01050000</item>
+        <item name="01000000">01000000</item>
+        <item name="03010000">03010000</item>
+        <item name="03020000">03020000</item>
+        <item name="03030000">03030000</item>
+        <item name="03040000">03040000</item>
+        <item name="03050000">03050000</item>
+        <item name="03060000">03060000</item>
+        <item name="03070000">03070000</item>
+        <item name="03080000">03080000</item>
+        <item name="03090000">03090000</item>
+        <item name="03100000">03100000</item>
+        <item name="01000001">01000001</item>
+        <item name="04478210">04478210</item>
+        <item name="00010000">00010000</item>
+        <item name="01020000">01020000</item>
+        <item name="04325260">04325260</item>
+        <item name="04145210">04145210</item>
+    </string-array>
+    <string-array name="keyNo">
+        <item> keyNo 0 </item>
+        <item> keyNo 1 </item>
+        <item> keyNo 2 </item>
+        <item> keyNo 3 </item>
+        <item> keyNo 4 </item>
+        <item> keyNo 5 </item>
+        <item> keyNo 6 </item>
+        <item> keyNo 7 </item>
+        <item> keyNo 8 </item>
+        <item> keyNo 9 </item>
+    </string-array>
+    <string name="title_activity_hello">HelloActivity</string>
+    <string name="title_activity_test">TestActivity</string>
+    <string name="title_activity_icc4428">Icc4428Activity</string>
+    <string name="title_activity_icc4442">Icc4442Activity</string>
+
+    <!-- 主界面 -->
+    <string name="conn">Initialize service</string>
+    <string name="transaction">Transaction</string>
+    <string name="read_log">Read log</string>
+    <string name="function_setting">TermParam Setting</string>
+    <string name="other_setting">Param Download</string>
+    <string name="clear_log">Clear log</string>
+    <string name="pinkeypadtest">pinkeypad test</string>
+    <string name="last_transaction_result">Last transaction result</string>
+    <string name="start_auto_testing">Start Auto test</string>
+    <string name="stop_auto_testing">Stop auto test</string>
+    <string name="exit">Exit</string>
+
+    <!-- 交易界面 -->
+
+    <!--读日志界面-->
+    <string name="transaction_log">Transaction log</string>
+    <string name="transfer_log">Transfer log</string>
+
+    <!--功能设置-->
+    <string name="select_transaction_type">Select trans type</string>
+    <string name="force_acceptance">Force Accept</string>
+    <string name="select_account_type">Select account type</string>
+    <string name="data_acquisition">Data capture</string>
+    <string name="forced_online">Force online</string>
+    <string name="compulsory_approval">Force accept</string>
+    <string name="print_setting">Print setting</string>
+
+    <string name="getdata_pin">GetData for PIN</string>
+    <string name="bypass_pin">Bypass PIN</string>
+    <string name="bypass_all">Bypass PIN All</string>
+    <string name="support_pse">PSE Select</string>
+    <string name="use_term_aip">Use TermAIP for TRM</string>
+    <string name="support_advice">Advice</string>
+    <string name="support_sm">SM Algorithm</string>
+    <string name="support_multi_language">Multi Language</string>
+    <string name="language_select_method">Language Select</string>
+    <string name="support_exceptfile">Exception File</string>
+    <string name="support_account_select">Account Select</string>
+    <string name="support_readlog">Read Log</string>
+    <string name="terminal_type">Set Term Type</string>
+    <string name="interface_device_sn">Set IFD SN</string>
+    <string name="terminal_capacity">Set Term Capacity</string>
+    <string name="add_terminal_capacity">Set Add Term Capa</string>
+    <string name="clss_ttq">Set TTQ</string>
+    <string name="input_null_error">Input can\'t be null</string>
+    <string name="set_autotest_interval">Set AutoTest Interval</string>
+    <string name="tm_date">Set Terminal Data</string>
+    <string name="tm_time">Set Terminal Time</string>
+    <string name="set_curr_code">Set Currency code</string>
+    <string name="set_curr_exp">Set Currency Exp.</string>
+    <string name="set_country_code">Set Country code</string>
+    <string name="set_send_receipt">Set Send Receipt</string>
+    <string name="support_clss">Support CLSS</string>
+    <string name="set_config">setCfg</string>
+
+    <string name="checksum">checksum</string>
+
+    <!--其他设置-->
+    <string name="update_pub_key">Update CA public key</string>
+    <string name="update_aid">Update AID parameter</string>
+    <string name="update_terminal_params">Update terminal parameter</string>
+    <string name="update_blacklist">Update black list</string>
+    <string name="update_recovery_public_key">Update revoke CA public key</string>
+    <string name="batch_delivery">Batch data upload</string>
+    <string name="set_merchant_name">Set merchant name</string>
+    <string name="text_merchant_name">Merchant name</string>
+    <string name="merchant_name_null_error">Merchant name can\'t be null</string>
+    <!--清空日志界面-->
+    <string name="clear_transaction_log">Clear transaction log</string>
+
+    <!--    <string name="cancel">Cancel</string>-->
+    <string name="select">Please select</string>
+
+    <string name="Auth_OK">Auth OK</string>
+    <string name="Auth_Error">Auth Error</string>
+
+    <!--交易界面-->
+    <string name="input_money">Please input transaction amount:</string>
+    <string name="edit_input_money">Please input transaction amount(Unit:cent)</string>
+    <string name="back_money">Whether cash back</string>
+    <string name="input_other_money">Please input other amount:</string>
+    <string name="edit_input_other_money">Please input other amount(Unit:cent)</string>
+    <string name="is_select_account">Whether select account</string>
+    <string name="select_account">Account type select</string>
+    <string name="is_verify_cardholder">Whether cardholder verify</string>
+    <string name="is_input_online_pin">Whether input online PIN</string>
+    <string name="input_online_pin">Input online PIN</string>
+    <string name="is_input_offline_plaintext_pin">Whether input offline plain PIN</string>
+    <string name="input_offline_plaintext_pin">Input offline plain PIN</string>
+    <string name="is_input_offline_ciphertext_pin">Whether input offline enciphered PIN</string>
+    <string name="input_offline_ciphertext_pin">Input offline enciphered PIN</string>
+    <string name="start_transaction">Start transaction</string>
+
+    <!--    <string name="ok">OK</string>-->
+    <string name="input_error">Error input, please try again</string>
+    <string name="paymoney">Pay</string>
+    <string name="entrymoney">Please input amount</string>
+    <string name="base_loadding">Loading&#8230;</string>
+    <string name="confirm">@string/ok</string>
+    <string name="delete">DEL</string>
+    <string name="rmb">￥</string>
+    <string name="swing_card">Please insert or Tap card</string>
+    <string name="checking">Checking Card&#8230;</string>
+    <string name="transactioning">Transacting&#8230;</string>
+    <string name="trans_info">Can\'t get card number! Please contact pos developer</string>
+    <string name="card_number">Card Number</string>
+    <string name="click_ok">Clicked OK button</string>
+    <string name="trans_finished">Online transaction approved!</string>
+    <string name="consume">Consume</string>
+    <string name="unknow_error">Unknown error!</string>
+    <string name="amount_of_money">Amount</string>
+    <string name="input_password_hint">Please input password, Click OK if no password</string>
+
+    <!-- server config info -->
+    <string name="ip_address">IP Address:</string>
+    <string name="port">Port:</string>
+    <string name="server_config_input_prompt">Please input IP and Port</string>
+    <string name="tip_empty_content">IP or Port can\'t be null!</string>
+
+    <string name="trans_date">Transaction date:</string>
+    <string name="trans_time">Transaction time:</string>
+    <string name="trans_currency_code">Transaction currency code:</string>
+    <string name="auth_amount">Amount authorised:</string>
+    <string name="merchant_info">Merchant name and location:</string>
+    <string name="trans_counter">Application transaction counter:</string>
+    <string name="merchant_name">Merchant name:</string>
+    <string name="other_amount">Other amount:</string>
+    <string name="term_country_code">Terminal country code:</string>
+    <string name="trans_type">Transaction type:</string>
+    <string name="trans_before">Ballance before transfer:</string>
+    <string name="trans_after">Ballance after transfer:</string>
+
+    <string name="no_trans_log">No transaction log</string>
+    <string name="no_transfer_log">No transfer log</string>
+    <string name="get_emv_trans_log_error">Get EMV transaction log error::%s</string>
+    <string name="clear_emv_log_success">Clear EMV transaction log success</string>
+    <string name="clear_emv_log_error">Clear EMV transaction log error:%s</string>
+    <string name="get_pboc_trans_log_error">Get PBOC transaction log error:%s</string>
+    <string name="get_transfer_log_error">Get transfer log error:%s</string>
+
+    <string name="empty_load_data">No data form Server</string>
+    <string name="load_update_data">Loading data&#8230;</string>
+    <string name="server_commumication_error">Communicate to server exception</string>
+
+    <!--批数据上送-->
+    <string name="batch_data_upload_success">Batch data upload success</string>
+    <string name="batch_data_upload_failed">Batch data upload failed</string>
+    <string name="tip_black_list">卡片出现在黑名单中</string>
+
+
+    <!-- v2 -->
+    <string name="emv_app_select">Please select app</string>
+    <string name="handling">Processing</string>
+    <string name="cash_back_amount">Cash Back Amount：</string>
+    <string name="online_approve">Online Approve</string>
+    <string name="online_decline">Online Decline</string>
+    <string name="offline_approve">Offline Approve</string>
+    <string name="input_cashback_amount">Input CashBack Amount</string>
+    <string name="online_request">Online Request</string>
+    <string name="offline_decline">Offline Decline</string>
+    <string name="another_interface">Try Another Interface</string>
+    <string name="transaction_terminate">Transaction Terminate</string>
+    <string name="terminal_service_not_accepted">Terminate(Not Accepted)</string>
+    <string name="use_ic_card">Please Use IC Card</string>
+    <string name="swipe_card">Swipe Card</string>
+    <string name="online_failed">Online Failed</string>
+    <string name="remove_card">Please Remove Card</string>
+    <string name="read_card_success">Check Card Success</string>
+    <string name="init_emv_fail">InitEMVTrans Fail</string>
+    <string name="call_your_bank">Call Your Bank</string>
+    <string name="force_accpet_trx">Force Accept Transaction?</string>
+    <string name="yes">Yes</string>
+    <string name="no">NO</string>
+    <string name="update_success">Update Success!</string>
+    <string name="term_config_update_success">Update Terminal Config Success</string>
+    <string name="insert_or_tap_card">Please Insert Or Tap Card</string>
+    <string name="input_pin_or_skip">Please Enter PIN,(Press OK to Skip)</string>
+    <string name="input_pin_last_time">Please Enter PIN Again(Last Time)</string>
+    <string name="re_input_pin">Please Enter PIN Again</string>
+    <string name="read_record_to_end">Read Transaction Log to End</string>
+    <string name="id_card">ID Card</string>
+    <string name="officer_card">Officer Card</string>
+    <string name="visa">Passport</string>
+    <string name="entry_permit">Entry Permit</string>
+    <string name="temp_id_card">Temporary ID Card</string>
+    <string name="other">Other Card</string>
+    <string name="check_id_card">Please Check Cardholder\'s Card</string>
+    <string name="see_phone">See phone</string>
+
+    <string name="sign_in">sign in</string>
+    <string name="seconds_30">30</string>
+    <string name="save_terminal_params">Save</string>
+
+
 </resources>

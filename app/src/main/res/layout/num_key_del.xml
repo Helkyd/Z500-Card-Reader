@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="150dp"
+    android:layout_height="68dp"
+    android:background="@color/white"
+    android:gravity="center"
+    android:textColor="#fd5a52" >
+
+    <ImageView
+        android:id="@+id/del"
+        android:layout_width="25dp"
+        android:layout_height="25dp"
+        android:src="@drawable/keyborad_del" />
+
+</RelativeLayout>

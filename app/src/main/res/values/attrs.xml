@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+     <declare-styleable name="mGridLayout">
+        <attr name="numColumns" format="integer" />
+        <attr name="itemMargin" format="integer" />
+         <attr name="gridLineColor" format="reference"/>
+    </declare-styleable>
+
+    <declare-styleable name="NumKeyBoard">
+        <attr name="gbColor" format="color|reference" />
+        <attr name="deleteDrawable" format="reference" />
+    </declare-styleable>
+
+    <declare-styleable name="ListItemView">
+        <attr name="itemIcon" format="reference|color"/>
+        <attr name="itemText" format="string"/>
+        <attr name="showDivider" format="boolean"/>
+        <attr name="itemType">
+            <enum name="none" value="0"/>
+            <enum name="toggle" value="1"/>
+            <enum name="edit_text" value="2"/>
+            <enum name="plain_text" value="3"/>
+        </attr>
+        <attr name="inputType">
+            <enum name="text" value="0"/>
+            <enum name="number" value="1"/>
+            <enum name="number_decimal" value="2"/>
+            <enum name="ip" value="9"/>
+        </attr>
+        <attr name="textValue" format="string"/>
+        <attr name="digits" format="string"/>
+        <attr name="textMaxLength" format="integer"/>
+        <attr name="checked" format="boolean"/>
+    </declare-styleable>
+
+</resources>

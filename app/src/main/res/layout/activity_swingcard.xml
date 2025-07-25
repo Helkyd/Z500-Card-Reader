@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/FA6555"
+    android:clipToPadding="true"
+    android:fitsSystemWindows="true"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:id="@+id/top_bar"
+        android:layout_width="match_parent"
+        android:layout_height="56dp"
+        android:background="#fd5a52"
+        android:orientation="horizontal">
+
+        <RelativeLayout
+            android:id="@+id/back_rel"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:paddingEnd="16dp"
+            android:paddingStart="16dp">
+
+            <ImageView
+                android:layout_width="24dp"
+                android:layout_height="24dp"
+                android:layout_centerInParent="true"
+                android:contentDescription="@null"
+                android:src="@drawable/ic_back" />
+
+        </RelativeLayout>
+
+        <TextView
+            android:id="@+id/pre_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:layout_marginStart="16dp"
+            android:text="@string/swing_card"
+            android:textColor="#ffffff"
+            android:textSize="18sp" />
+
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/receivables_value"
+        android:layout_width="match_parent"
+        android:layout_height="79dp"
+        android:gravity="center"
+        android:textColor="@color/white"
+        android:textSize="25sp" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="38dp"
+        android:background="@color/CEC4D44"
+        android:gravity="center"
+        android:text="@string/swing_card"
+        android:textColor="@color/white"
+        android:textSize="16sp" />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="38dp"
+        android:background="@color/CEC4D44"
+        android:visibility="gone">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_centerVertical="true"
+            android:layout_marginStart="16dp"
+            android:text="@string/card_number"
+            android:textColor="@color/white"
+            android:textSize="16sp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_centerVertical="true"
+            android:layout_marginEnd="16dp"
+            android:text="@string/swing_card"
+            android:textColor="@color/white"
+            android:textSize="16sp" />
+    </RelativeLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#f0f0f0"
+        android:orientation="vertical"
+        android:padding="10dp">
+
+<!--        <test.apidemo.activity.view.FixPasswordKeyboard-->
+<!--            android:id="@+id/fixPasswordKeyboard1"-->
+<!--            android:layout_width="match_parent"-->
+<!--            android:layout_height="262dp"-->
+<!--            android:layout_alignParentStart="true"-->
+<!--            android:layout_alignParentBottom="true"-->
+<!--            android:layout_marginStart="0dp"-->
+<!--            android:layout_marginBottom="2dp" />-->
+
+        <ImageView
+            android:layout_width="325dp"
+            android:layout_height="175dp"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="14dp"
+            android:contentDescription="@null"
+            android:src="@drawable/chip_card"
+            android:layout_weight="1"/>
+
+        <ImageView
+            android:id="@+id/swip_card_img"
+            android:layout_width="325dp"
+            android:layout_height="175dp"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="14dp"
+            android:contentDescription="@null"
+            android:src="@drawable/magnetic_stripe_card"
+            android:layout_weight="1"/>
+
+
+
+    </LinearLayout>
+
+</LinearLayout>
