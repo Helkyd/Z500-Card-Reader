@@ -145,7 +145,7 @@ public class SwingCardActivity extends BaseActivity {
             if (initTransData()) {//init ok
                 swingCard();
             } else {
-                //REVER showToast(getString(R.string.init_emv_fail));
+                showToast(getString(R.string.init_emv_fail));
                 Log.e("dd-",getString(R.string.init_emv_fail));
                 finish();
             }

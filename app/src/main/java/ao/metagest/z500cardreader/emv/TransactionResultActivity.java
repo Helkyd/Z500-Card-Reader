@@ -272,7 +272,7 @@ public class TransactionResultActivity extends BaseActivityOLD {
                     public void call(Throwable t) {
                         t.printStackTrace();
                         Log.e(TAG, "update db transfer log failed：" + t.getMessage());
-                        //REVER showToast("update transfer log error：" + t.getMessage());
+                        showToast("update transfer log error：" + t.getMessage());
                     }
                 });
     }
